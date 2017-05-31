@@ -14,7 +14,8 @@
     "juliangruber-shallow-equal": "^1.0.4",
     "nanocomponent": "^5.0.0",
     "nanologger": "^1.1.0",
-    "nanomorph": "^5.0.0"
+    "nanomorph": "^5.0.0",
+    "nanotiming": "^5.2.1"
   },
   "devDependencies": {
     "array-move": "^1.0.0",

@@ -43,6 +43,13 @@ function createComponent () {
 }
 ```
 
+## Logging
+Microcomponent comes with logging out of the box, but is disabled by default so
+your browser console stays nice and tidy most of the time. To enable logging
+set `localStorage.logLevel = 'debug'`. To disable logging set the `logLevel`
+back to a higher level (by default it's `'info'`, but `'error'` or `'warn`
+makes a lot of sense for production environments too).
+
 ## API
 ### `component = Component([{ name, props, state, pure }])`
 Create a new Microcomponent instance. Takes a name string that's used for
