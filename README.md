@@ -11,7 +11,7 @@ var microcomponent = require('microcomponent')
 var html = require('bel')
 
 var component = createComponent()
-document.body.appendChild(component.render())
+document.body.appendChild(component.render({text: ''}))
 
 function createComponent () {
   var component = microcomponent({
